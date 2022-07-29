@@ -54,7 +54,8 @@ body {
   content: "<";
   display: block;
   color: white;
-  rotate: -90deg;
+  /* rotate: -90deg; */
+  transform: rotate(268deg);
   margin: 5px 0 0 5px;
   font-weight: bold;
 }
