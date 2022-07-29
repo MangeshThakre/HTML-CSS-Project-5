@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  padding: 0;
+ font-family: Montserrat;
+}
+
+.container {
+  height: 100vh;
+}
+.navbarContainer {
+  background-color: black;
+  height: 80px;
+  padding: 0px 60px 0 60px;
+  position: sticky;
+  top: 0;
+}
+
+.navbar{
+height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.navbar >div >img {
+  height:40px ;
+}
+.line {
+  border-right:2px solid #ffff ;
+  height: 60px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;  
+  height: 40px;
+}
+
+.list>li{
+  margin: 0 30px 0  0;
+  height: 30px;
+  list-style :none;
+cursor: pointer ;
+display: flex;
+align-items: center;
+}
+
+.list > li:first-child::after {
+  content: "<";
+  display: block;
+  color: white;
+  rotate: -90deg;
+  margin: 5px 0 0 5px;
+  font-weight: bold;
+}
+
+
+.list-item:hover{
+ border-bottom: solid 2px white;
+}
+
+.button-small{
+  height: 35px;
+width: 139px;
+border: none;
+border-radius: 6px;
+color: white;
+font-family: Montserrat;
+background-color: #ba0cc5;
+cursor: pointer ;
+transition: all 0.5s ease;
+}
+/* hero */
+.heroContainer{
+  background-image: url("./assets/bg.png");
+  height: 100%;
+  background-size:cover ;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.hero{
+  padding: 4% 200px 0 200px;
+  display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+flex-direction: column;  
+color: #ffff;
+}
+h1{
+font-size:  75px;
+margin: 10px;
+
+}
+p{
+  font-size: 28px;
+  margin: 10px;
+}
+.button-large{
+ margin: 30px;
+  height: 45px;
+width: 190px;
+border: none;
+border-radius: 4px;
+background-color: #ba0cc5;
+color: #fff;
+font-family: Montserrat;
+cursor: pointer ;
+transition: all 0.5s ease;
+}
+.button-large:hover{
+  background-color: #e224f0;
+}.button-small:hover{
+  background-color: #e224f0;
+}
