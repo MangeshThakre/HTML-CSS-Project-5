@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Live%20Project%205-Cryptog%20Landing%20Page-brightgreen)
+![](https://img.shields.io/badge/Live%20Project%205-Crypto%20Landing%20Page-brightgreen)
 
 # Crypto Landing Page 
 > HTML - CSS Project-5
